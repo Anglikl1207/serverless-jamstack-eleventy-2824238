@@ -1,4 +1,22 @@
-# JAMStack
+---
+title: Jamstack with Eleventy
+date: Created
+tags:
+ - home
+ - welcome
+ - info
+---
+
+# {{title}}
+**Date**: {{page.date.toUTCString()}}
+
+**By**: {{pkg.author}}
+
+<ul>
+{% for item in tags %}
+<li> {{item}} </li>
+</ul>
+{% endfor %}
 
 The **JAMStack** is part of a family of techniques for creating sites called `serverless`, but those techniques can be a bit confusing.
 
