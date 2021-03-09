@@ -1,11 +1,21 @@
-module.exports = {
+module.exports = function(eleventyConfig) {
 
-    dir: {
+
+
+    eleventyConfig.addPassthroughCopy('./_site/images');
    
-           input: '_site',
    
-           output: 'dist'
+   
+     return {
+   
+       dir: {
+   
+         input: '_site',
+   
+         output: 'dist'
    
        }
+   
+     }
    
    }
