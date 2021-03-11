@@ -14,4 +14,4 @@ layout: base
 
 ## About Me
 
-I like reading and deep house music
+I like to read before going to bed. 
